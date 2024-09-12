@@ -1,4 +1,4 @@
-# Practice Problems Shell
+# Practice Problems: Shell
 
 ## 1) Write a shell script to find maximum number from array.
 
