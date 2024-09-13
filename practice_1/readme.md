@@ -166,3 +166,17 @@ for file in "$@"; do
     echo # Print a blank line for readability between files
 done
 ```
+
+## Exercise 9: Your task is to use for loops to display only odd natural numbers from 1 to 99.
+
+```sh
+#!/bin/bash
+
+echo "This will print odd numbers from 1 to 100"
+
+for ((i=1;i<=100;i+=2)); do
+  echo $i
+done
+
+
+```

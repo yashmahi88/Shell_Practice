@@ -138,3 +138,29 @@ files=$(ls | wc -l)
 
 echo "$files"
 ```
+
+## 8) Given two integers X and Y, identify whether  X < Y or X > Y or X=Y . 
+
+Exactly one of the following lines:
+- X is less than Y
+- X is greater than Y
+- X is equal to Y
+
+```sh
+#!/bin/bash
+
+echo "Enter the first number"
+read num1
+
+echo "Enter the second number"
+read num2
+
+if [ $num1 -gt $num2 ]; then
+  echo "${num1} is greater than ${num2}"
+elif [ $num1 -lt $num2 ]; then
+  echo "${num1} is less than ${num2}"
+else
+  echo "${num1} is equal to ${num2}"
+fi
+
+```
