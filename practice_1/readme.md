@@ -167,7 +167,8 @@ for file in "$@"; do
 done
 ```
 
-## Exercise 9: Your task is to use for loops to display only odd natural numbers from 1 to 99.
+## Exercise 9: 
+Your task is to use for loops to display only odd natural numbers from 1 to 99.
 
 ```sh
 #!/bin/bash
